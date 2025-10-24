@@ -4,8 +4,8 @@
     "configurations": [
 
         {
-            "name": "Sandbox Project",
-            "type": "coreclr",
+"name": "Sandbox Project",
+"type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-sandbox-Sandbox",
             "program": "${workspaceFolder}/sandbox/Sandbox/bin/Debug/net8.0/Sandbox.dll",

@@ -4,6 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the Fractions Project.");
+        Console.WriteLine("What is your name? ");
+        string name = Console.ReadLine();
+        Console.WriteLine($"Hello, {name}");
     }
 }

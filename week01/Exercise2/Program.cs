@@ -41,7 +41,7 @@ class Program
             }
             else if (lastDigit < 3)
             {
-                sign = "-";
+                sign = "-";                                                                                                      
             }
         }
 

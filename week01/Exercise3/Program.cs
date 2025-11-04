@@ -5,6 +5,7 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Hello World! This is the Exercise3 Project.");
+    
 
         Console.Write("What is the magic number ?");
         string input = Console.ReadLine();
@@ -13,8 +14,6 @@ class Program
         string playAgain = "yes";
         while (playAgain.ToLower() == "yes")
         {
-
-
 
             magicNumber = randomgenerator.Next(1, 101);
             int guessNumber = -1;

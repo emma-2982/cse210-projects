@@ -31,9 +31,9 @@ class Program
         {
             letter = "F";
         }
-        // add a + || - sign to the grade letter
+        
         int lastDigit = grade % 10;
-        if (letter != "A" && letter != "F") //This is to determone that there is no A+ OR F+/F-
+        if (letter != "A" && letter != "F") //This is to determine that there is no A+ OR F+/F-
         {
             if (lastDigit >= 7)
             {

@@ -11,4 +11,4 @@ class Program
         Console.WriteLine($"The color you typed is {color}");
     }   
 
-}
+} 

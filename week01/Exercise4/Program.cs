@@ -19,6 +19,7 @@ class Program
 
                 if (userNumber != 0)
                 {
+                    
                     numbers.Add(userNumber);
                 }
             }
